@@ -1,0 +1,73 @@
+# Local secrets and environment variables
+.env
+.env.*
+.envrc
+.envrc.*
+!.env.example
+!.env.sample
+!.env.template
+
+# API keys, certs, and private credentials
+*.key
+*.pem
+*.p12
+*.p8
+*.crt
+*.csr
+id_rsa*
+id_ed25519*
+credentials.json
+token.json
+secrets.json
+
+# Local/generated invite research outputs may contain names, LinkedIn URLs,
+# outreach notes, or other personal data. Keep them out of commits by default.
+reports/
+exports/
+data/raw/
+data/private/
+*.csv
+*.tsv
+*.xls
+*.xlsx
+*.jsonl
+*.ndjson
+*.pptx
+
+# Python
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+dist/
+build/
+*.egg-info/
+
+# Node / Next.js
+node_modules/
+.next/
+out/
+coverage/
+*.tsbuildinfo
+next-env.d.ts
+
+# Local databases and caches
+*.db
+*.sqlite
+*.sqlite3
+.cache/
+.turbo/
+
+# Logs and local machine files
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.DS_Store
+.vscode/
+.idea/
