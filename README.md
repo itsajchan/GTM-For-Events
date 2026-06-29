@@ -1,6 +1,12 @@
-# Search for Invite with Bright Data
+<p align="center">
+  <img src="https://brightdata.com/wp-content/themes/brightdata/assets/images/favicon.png" alt="Bright Data logo" width="96" />
+</p>
 
-This project creates a Python OpenAI Agents SDK agent that:
+# GTM-For-Events
+
+GTM-For-Events is a useful event research and invite prospecting tool that utilizes Bright Data for accessing the public web. It combines Bright Data Web Unlocker and SERP API with a Python OpenAI Agents SDK workflow to research public event pages, discover relevant public profiles, gather evidence, and prepare a reviewable invite shortlist.
+
+The tool:
 
 1. Fetches a public event page, such as `https://luma.com/vla-night-panel`, through Bright Data Web Unlocker.
 2. Uses Bright Data SERP API to search Google for public LinkedIn profile URLs in a target city.
@@ -78,5 +84,3 @@ python -m invite_finder.cli \
 - OpenAI Agents SDK tools: `https://developers.openai.com/api/docs/guides/tools#usage-in-the-agents-sdk`
 - Bright Data SERP API: `https://docs.brightdata.com/api-reference/rest-api/serp/serp-api`
 - Bright Data Unlocker API: `https://docs.brightdata.com/api-reference/rest-api/unlocker/unlock-website`
-
-# GTM-For-Events
